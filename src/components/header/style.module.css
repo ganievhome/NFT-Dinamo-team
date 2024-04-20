@@ -1,0 +1,121 @@
+.container{
+   width: 100%;
+   max-width: 1240px;
+   margin: 0px auto;
+   padding: 0px 10px;
+}
+.header{
+   width: 100%;
+   background-color: #2B2B2B;
+}
+.navbar{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px;
+}
+.logo{
+   width: 20%;
+}
+.logo img{
+   width: 100%;
+}
+.menu{
+   width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.menu .link{
+   color: #fff;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 22.4px;
+   text-align: center;
+   text-decoration: none;
+}
+.link__create{
+   color: #fff;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 22.4px;
+   text-align: center;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   background-color: #A259FF; 
+   padding: 10px 15px;
+   border-radius: 20px;
+}
+.hamburger{
+   color: #fff;
+   width: 30px;
+   height: 30px;
+   display: none;
+}
+
+@media only screen and (max-width: 1278px) {
+   .container{
+      width: 100%;
+      max-width: 95%;
+      margin: 0px auto;
+      padding: 0px 10px;
+   }
+}
+@media only screen and (max-width: 1200px) {
+   .menu{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+}
+@media only screen and (max-width: 960px) {
+   .menu{
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .logo{
+      width: 25%;
+   }
+}
+@media only screen and (max-width: 780px) {
+   .menu{
+      display: none;
+   }
+   .logo{
+      width: 25%;
+   }
+   .hamburger{
+      display: block;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .menu{
+      display: none;
+   }
+   .logo{
+      width: 35%;
+   }
+   .hamburger{
+      display: block;
+   }
+}
+@media only screen and (max-width: 410px) {
+   .menu{
+      display: none;
+   }
+   .logo{
+      width: 45%;
+   }
+   .hamburger{
+      display: block;
+   }
+}
