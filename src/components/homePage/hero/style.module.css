@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 0px 10px;
+ }
+ .hero{
+   background-color: #2B2B2B;
+   width: 100%;
+   
+   padding: 60px 0;
+ }
+ .hero__section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+ }
+ .link__create{
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    background-color: #A259FF; 
+    padding: 20px 10px;
+    border-radius: 20px;
+ }
+ .left{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .h1{
+    width: 90%;
+   color: #fff;
+font-family: Work Sans;
+font-size: 67px;
+font-weight: 600;
+line-height: 73.7px;
+text-align: left;
+margin: 0;
+ }
+ .p{
+   color: #fff;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.2px;
+text-align: left;
+margin: 0;
+ }
+.right{
+    width: 510px;
+    background-color: #3B3B3B;
+    height: 510px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    list-style-type: none;
+}
+.h3{
+    color: #fff;
+font-family: Space Mono;
+font-size: 28px;
+font-weight: 700;
+line-height: 39.2px;
+text-align: left;
+margin: 0;
+}
+
+.li__p{
+    font-family: Work Sans;
+font-size: 23.99px;
+font-weight: 400;
+line-height: 38.38px;
+text-align: left;
+color: #fff;
+margin: 0;
+}
+.h2{
+    color: #fff;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+padding-left: 20px;
+margin: 0;
+padding-top: 20px;
+}
+.right__bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.small{
+   color: #fff;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
