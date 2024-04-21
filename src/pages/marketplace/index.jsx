@@ -8,6 +8,7 @@ function Marketplace() {
    return(
       <>
          <MarketplaceHero/>
+       
          <MarketplaceCards/>
       </>
    )
