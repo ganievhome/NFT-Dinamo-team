@@ -28,6 +28,7 @@ function MarketplaceHero() {
                      <h6 className={styles.dashboard__hp}>Collections</h6>
                      <button  className={styles.dashboard__button}>67</button>
                   </div>
+                  
                </div>
             </div>
          </div>
